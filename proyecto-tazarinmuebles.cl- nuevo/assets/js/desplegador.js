@@ -1,5 +1,17 @@
 
 
+function aceptarCookies() {
+  
+  
+  const cookieNotification = document.getElementById('cookieNotification');
+  cookieNotification.classList.add('visually-hidden');
+  cookieNotification.classList.remove('d-flex');
+  cookieNotification.classList.remove('justify-content-center');
+  cookieNotification.classList.remove('gap-3');
+  cookieNotification.style.display = "none";
+
+}
+
 function toggleConcepto(conceptoId) {
   var concepto = document.getElementById("concepto" + conceptoId);
   concepto.classList.toggle("oculto");
