@@ -1,4 +1,10 @@
-
+function aceptarCookies() {
+  // Aquí puedes agregar tu lógica para guardar la aceptación de cookies
+  // Por ejemplo, puedes utilizar cookies o almacenamiento local (localStorage)
+  // Una vez que el usuario acepta las cookies, puedes ocultar la notificación
+  const cookie = document.getElementById('cookieNotification');
+  cookie.classList.add('visually-hidden');
+}
 
 function toggleConcepto(conceptoId) {
   var concepto = document.getElementById("concepto" + conceptoId);

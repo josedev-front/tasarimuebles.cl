@@ -475,3 +475,14 @@ footer .sub-footer p {
     font-size: 15px;
   }
 }
+
+.cookie-notification {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #f8f9fa;
+  text-align: center;
+  z-index: 9999;
+}
