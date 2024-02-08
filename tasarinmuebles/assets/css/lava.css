@@ -302,11 +302,7 @@ footer .right-content {
 
 }
 
-.contact-form textarea {
-  height: 150px;
-  resize: none;
-  padding: 20px;
-}
+
 
 .contact-form {
   text-align: center;
@@ -326,6 +322,8 @@ footer .right-content {
 
 .footer-content .right-content {
   color: #fff;
+  text-align: center;
+  margin: auto;
 }
 
 .footer-content .right-content h2 {

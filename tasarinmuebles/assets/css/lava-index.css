@@ -357,6 +357,8 @@ footer .right-content {
 
 .footer-content .right-content {
   color: #fff;
+  text-align: center;
+  margin: auto;
 }
 
 .footer-content .right-content h2 {
