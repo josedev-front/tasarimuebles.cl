@@ -87,7 +87,7 @@ body {
   
     
   }
-  @media (min-width: 705px) {
+@media (min-width: 705px) {
     .dropdown {
       display: none;
     }
@@ -212,9 +212,7 @@ body {
   border: none;
   border-radius: 10em;
   background: #016DD9;
-  font-size: 17px;
-  color: #ffffff;
-  font-family: inherit;
+  
   font-weight: 500;
   padding: 10px;
   text-align: center;
@@ -223,15 +221,13 @@ body {
   z-index: 2;
   top: 40%;
  }
-
-
-.tasa-botom:hover {
-  animation: shake3856 0.3s linear infinite both;
+ .tasa-botom button {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: inherit;
+  font-weight: 500;
  }
- .tasa-botom a {
-  text-decoration: none;
-  color: #f5f5f5;
- }
+
 
  @media (max-width: 705px) {
   .tasa-botom {
