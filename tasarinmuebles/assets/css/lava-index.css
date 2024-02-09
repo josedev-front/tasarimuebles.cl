@@ -102,7 +102,7 @@ body {
     .navbar {
       justify-content: space-around;
     }
-    .container .row .left-text h1, h2, h3, h5 {
+    .container .row .left-text  h2, h3, h5 {
       font-size: 14px;
     }
     .container .row .left-text h1 {
@@ -213,7 +213,7 @@ body {
   border-radius: 10em;
   background: #016DD9;
   
-  font-weight: 500;
+  
   padding: 10px;
   text-align: center;
   justify-content: center;
@@ -223,18 +223,17 @@ body {
  }
  .tasa-botom button {
   color: #ffffff;
-  font-size: 17px;
+  font-size: 1em;
   font-family: inherit;
   font-weight: 500;
  }
-
-
- @media (max-width: 705px) {
-  .tasa-botom {
-    height: 2em;
-    width: 9em; 
-    padding: 5px;
+ @media screen and (max-width: 768px) {
+  .btn {
+    font-size: 0.8em; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+  }
  }
+ @media (max-width: 705px) {
+
  .tasa-botom a {
   font-size: 12px;
  }
