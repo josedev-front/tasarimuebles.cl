@@ -87,8 +87,12 @@ body {
     .navbar {
       justify-content: space-around;
     }
-    .container .row .left-text h1, h2, h3, h4, h5 {
+    .container .row .left-text h2, h3, h4, h5 {
       font-size: 14px;
+    }
+
+    .container .row .left-text h1 {
+      font-size: 1.5rem;
     }
     
     .container .row .left-text br {
