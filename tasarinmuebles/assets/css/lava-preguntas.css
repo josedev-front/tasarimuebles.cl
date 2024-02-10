@@ -438,6 +438,14 @@ font-size: 1em;
 font-family: "Open Sans";
 }
 
+.footlogo {
+  width: 10%;
+  height: 10%;
+  margin: 0;
+}
+
+
+
 @media (max-width: 992px) {
 footer {
   padding-top: 0px!important;
@@ -465,11 +473,19 @@ footer .social li a {
 }
 }
 
+@media (max-width: 400px) { 
+  .footlogo {
+    width: 20%;
+    height: 20%;
+  }
+}
+
 #cookieNotification {
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 90%;
+  height: 6rem;
   padding: 10px;
   background-color: #f8f9fa;
   text-align: center;

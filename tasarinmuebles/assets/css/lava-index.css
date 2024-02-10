@@ -124,7 +124,7 @@ body {
        margin: 20px;
     }
     .top {
-      padding-top: 10%;
+      padding-top: 0%;
     }
   
     .logo {
@@ -436,6 +436,11 @@ footer .sub-footer a {
 	color: #f5f5f5;
 }
 
+.footlogo {
+  width: 10%;
+  height: 10%;
+  margin: 0;
+}
 
 
 footer .sub-footer p {
@@ -473,11 +478,21 @@ footer .sub-footer p {
   }
 }
 
+
+@media (max-width: 400px) { 
+.footlogo {
+  width: 20%;
+  height: 20%;
+}
+
+}
+
 #cookieNotification {
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 90%;
+  height: 6rem;
   padding: 10px;
   background-color: #f8f9fa;
   text-align: center;
