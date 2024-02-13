@@ -256,8 +256,8 @@ text-align: center;
 /*   FOOTER    */
 
 footer {
-  margin-top: 200px;
-  padding-top: 120px;
+  margin-top: 100px;
+  padding-top: 0px;
   background-image: url(../images/footer-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -266,18 +266,10 @@ footer {
 }
 
 footer .footer-content {
-  padding: 120px 0px;
+  padding: 0;
 }
 
-.contact-form {
-  position: relative;
-  z-index: 10;
-  padding: 45px;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-  
-}
+
 
 footer .right-content {
   align-self: center;
@@ -304,24 +296,6 @@ footer .right-content {
 .links li {
   text-decoration: none;
 
-}
-
-
-
-.contact-form {
-  text-align: center;
-}
-
-.contact-form ::-webkit-input-placeholder { /* Edge */
-  color: #7a7a7a;
-}
-
-.contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #7a7a7a;
-}
-
-.contact-form ::placeholder {
-  color: #7a7a7a;
 }
 
 .footer-content .right-content {
@@ -464,7 +438,7 @@ footer .sub-footer p {
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 90%;
+  width: 100%;
   height: 6rem;
   padding: 10px;
   background-color: #f8f9fa;
